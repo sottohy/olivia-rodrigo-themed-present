@@ -84,7 +84,7 @@ export default function LyricCard({
       {status === "success" && (
         <div className="answer-feedback success">
           <p className="feedback-title">
-            {isFinal ? "yes, but with a slight modification." : "you got it."}
+            {isFinal ? "yes, but with a slight modification." : "you got it!"}
           </p>
           <p>{reflection}</p>
           <button
